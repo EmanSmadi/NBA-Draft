@@ -24,10 +24,10 @@ Building of the predictive model using Scikit learn:
 -	Target: draft results (Drafted or Not Drafted)
 -	Checked different classification models to predict the draft results with Logistic Regression giving the best results
 -	Used the coefficients of the Logistic Regression model to assess the variables of the model:
-o	The below 4 variables has the highest impact on player getting drafted
-ORB% 0.79, FIC 0.73, PER 0.72, eFG% 0.62
+o	The below 3 variables has the highest impact on player getting drafted
+ FIC , PER , and player position
 o	The below 3 variables shows a negative impact of the players selection process
-colyear -0.61 , position -1.23
+college year, ORB% and DRB%
 
 Step 4. Evaluating and scoring the predictive model:
 
